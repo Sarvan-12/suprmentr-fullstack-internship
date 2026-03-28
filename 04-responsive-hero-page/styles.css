@@ -1,0 +1,303 @@
+/* ── Reset ─────────────────────────────────────────── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* ── NAVBAR ────────────────────────────────────────── */
+.main-nav {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+}
+
+.nav-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #4f46e5;
+}
+
+/* Hamburger — hidden on desktop */
+.nav-toggle        { display: none; }
+.nav-toggle-label  {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-toggle-label span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* ── HERO ──────────────────────────────────────────── */
+.hero {
+    display: flex;                  /* Flexbox side-by-side */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 5rem 5%;
+    background: linear-gradient(135deg, #eef2ff 0%, #f5f5f5 100%);
+    min-height: 90vh;
+}
+
+.hero-content {
+    flex: 1;                        /* take up left half */
+    max-width: 520px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: #e0e7ff;
+    color: #4f46e5;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 1.2rem;
+}
+
+.hero-title {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+/* Two buttons in a flex row */
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background: #4f46e5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #4338ca;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #4f46e5;
+    border-color: #4f46e5;
+}
+
+.btn-outline:hover {
+    background: #4f46e5;
+    color: #fff;
+}
+
+.hero-image {
+    flex: 1;                        /* take up right half */
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 460px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+/* ── FEATURES ──────────────────────────────────────── */
+.features {
+    padding: 5rem 5%;
+    background: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.section-sub {
+    color: #777;
+    margin-bottom: 3rem;
+}
+
+/* Flexbox card grid */
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.feature-card {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    flex: 1 1 220px;                /* grow, shrink, min-width */
+    max-width: 280px;
+    transition: box-shadow 0.2s;
+}
+
+.feature-card:hover {
+    box-shadow: 0 6px 20px rgba(79,70,229,0.12);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.feature-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+    font-size: 0.88rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* ── CONTACT ───────────────────────────────────────── */
+.contact {
+    padding: 5rem 5%;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;        /* stack inputs vertically */
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4f46e5;
+}
+
+.contact-form .btn {
+    align-self: center;
+}
+
+/* ── FOOTER ────────────────────────────────────────── */
+.footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.85rem;
+}
+
+/* ══════════════════════════════════════════════════
+   RESPONSIVE — MOBILE  (max-width: 768px)
+══════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+    /* Show hamburger, hide links */
+    .nav-toggle-label { display: flex; }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 5%;
+        background: #fff;
+        position: absolute;
+        top: 65px;
+        left: 0; right: 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    /* When checkbox checked → show menu */
+    .nav-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    /* Hero: stack vertically */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 5%;
+        min-height: auto;
+    }
+
+    .hero-title    { font-size: 2rem; }
+    .hero-buttons  { justify-content: center; }
+    .hero-content  { max-width: 100%; }
+
+    .hero-image img { max-width: 100%; }
+
+    /* Feature cards: full width */
+    .feature-card { max-width: 100%; }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand – Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Brand</a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">✨ Simple & Clean Design</span>
+            <h1 class="hero-title">Welcome to <br> Our Website</h1>
+            <p class="hero-subtitle">
+                We help people build clean, responsive websites that
+                look great on any device - phone, tablet, or desktop.
+            </p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Get Started</a>
+                <a href="#contact"  class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="image.png" alt="Website illustration">
+        </div>
+    </header>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <h2 class="section-title">What We Offer</h2>
+        <p class="section-sub">Simple features that make a big difference.</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Performance</h3>
+                <p>Pages load quickly and smoothly, giving users
+                   a better experience every time they visit.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>Mobile Friendly</h3>
+                <p>Our layout adjusts automatically for phones and
+                   tablets using Flexbox and responsive design.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Clean Design</h3>
+                <p>Simple colours, readable fonts, and a layout
+                   that is easy to follow for all users.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-sub">Have a question? Send us a message below.</p>
+
+        <form class="contact-form">
+            <input  type="text"  placeholder="Your Name"    required>
+            <input  type="email" placeholder="Your Email"   required>
+            <textarea placeholder="Your message..." rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Brand. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Create Account</h1>
+        <p class="subtext">Fill in the details below to sign up.</p>
+
+        <!-- ✅ Success message (hidden by default) -->
+        <div id="success-msg" class="success-msg hidden">
+            ✅ Account created successfully! Welcome aboard.
+        </div>
+
+        <form id="signup-form">
+
+            <!-- Name -->
+            <div class="field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="e.g. John Smith">
+                <span class="error" id="name-error"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="field">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" placeholder="e.g. john@gmail.com">
+                <span class="error" id="email-error"></span>
+            </div>
+
+            <!-- Password -->
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Minimum 6 characters">
+                <span class="error" id="password-error"></span>
+            </div>
+
+            <!-- Dropdown -->
+            <div class="field">
+                <label for="role">Your Role</label>
+                <select id="role">
+                    <option value="">-- Select a role --</option>
+                    <option value="student">Student</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="other">Other</option>
+                </select>
+                <span class="error" id="role-error"></span>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="field checkbox-field">
+                <input type="checkbox" id="terms">
+                <label for="terms">I agree to the Terms & Conditions</label>
+            </div>
+            <span class="error" id="terms-error"></span>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
