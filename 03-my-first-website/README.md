@@ -5,6 +5,12 @@
 
 ---
 
+## Live Demo
+
+🔗 [View Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/03-my-first-website/)
+
+---
+
 ## What I Built
 
 A personal profile/portfolio webpage with a sidebar layout, showing my bio, technical skills, projects, and social links — styled with CSS including glassmorphism effects and animated background blobs.

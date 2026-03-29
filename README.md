@@ -1,8 +1,8 @@
-# suprmentr-mern-internship
+# suprmentr-fullstack-internship
 
 This repo contains all my assignments and work from my **4-month MERN Stack internship at SuprMentr Technologies**.
 
-I'm a 8th semester B.E. student in **AI & Data Science (VTU)**, and this internship is helping me build real full stack skills — starting from HTML/CSS basics all the way to React, Node.js, Express, and MongoDB.
+I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this internship is helping me build real full stack skills — starting from HTML/CSS basics all the way to React, Node.js, Express, and MongoDB.
 
 ---
 
@@ -18,16 +18,16 @@ I'm a 8th semester B.E. student in **AI & Data Science (VTU)**, and this interns
 
 ## Month 1 — Assignments
 
-| # | Assignment | Topics Covered |
-|---|-----------|----------------|
-| 01 | [Resume CV](./01-resume-cv/) | HTML structure, CSS styling |
-| 02 | [Internet Explorer](./02-internet-explorer/) | Client-server architecture |
-| 03 | [My First Website](./03-my-first-website/) | HTML, CSS, personal profile page |
-| 04 | [Responsive Hero Page](./04-responsive-hero-page/) | Flexbox, responsive design |
-| 05 | [Console Challenge](./05-console-challenge/) | JavaScript basics, browser console |
-| 06 | [Student Manager](./06-student-manager/) | Arrays, objects, functions in JS |
-| 07 | [Interactive Form](./07-interactive-form/) | DOM manipulation, form validation |
-| 08 | [Component Hunt](./08-component-hunt/) | UI component breakdown, planning |
+| # | Assignment | Topics Covered | Live Demo |
+|---|-----------|----------------|-----------|
+| 01 | [Resume CV](./01-resume-cv/) | HTML structure, CSS styling | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/01-resume-cv/) |
+| 02 | [Internet Explorer](./02-internet-explorer/) | Client-server architecture | PDF |
+| 03 | [My First Website](./03-my-first-website/) | HTML, CSS, personal profile page | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/03-my-first-website/) |
+| 04 | [Responsive Hero Page](./04-responsive-hero-page/) | Flexbox, responsive design | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/04-responsive-hero-page/) |
+| 05 | [Console Challenge](./05-console-challenge/) | JavaScript basics, browser console | Screenshot |
+| 06 | [Student Manager](./06-student-manager/) | Arrays, objects, functions in JS | Screenshot |
+| 07 | [Interactive Form](./07-interactive-form/) | DOM manipulation, form validation | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/07-interactive-form/) |
+| 08 | [Component Hunt](./08-component-hunt/) | UI component breakdown, planning | PDF |
 
 ---
 

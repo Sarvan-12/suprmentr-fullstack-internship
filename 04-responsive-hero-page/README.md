@@ -5,6 +5,12 @@
 
 ---
 
+## Live Demo
+
+🔗 [View Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/04-responsive-hero-page/)
+
+---
+
 ## What I Built
 
 A fully responsive landing page with a navbar, hero section, features section, contact form, and footer — built using HTML and CSS with Flexbox for layout and media queries for responsiveness.

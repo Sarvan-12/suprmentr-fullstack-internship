@@ -5,9 +5,15 @@
 
 ---
 
+## Output
+
+![Console Output](./Screenshot.png)
+
+---
+
 ## What I Built
 
-A JavaScript file with basic calculator functions (add, subtract, multiply, divide) that run and display results in the browser console.
+A JavaScript file with basic calculator functions (add, subtract, multiply, divide) that run and display results in the terminal/browser console.
 
 ---
 
@@ -22,7 +28,7 @@ A JavaScript file with basic calculator functions (add, subtract, multiply, divi
 ## Technologies Used
 
 - JavaScript (Vanilla)
-- Browser Console
+- Node.js (to run in terminal)
 
 ---
 
@@ -31,16 +37,17 @@ A JavaScript file with basic calculator functions (add, subtract, multiply, divi
 ```
 05-console-challenge/
 │
-└── script.js       # Calculator functions and console test outputs
+├── script.js       # Calculator functions and console test outputs
+└── Screenshot.png  # Terminal output screenshot
 ```
 
 ---
 
 ## How to Run
 
-1. Open browser DevTools (F12)
-2. Go to the **Console** tab
-3. Copy-paste the contents of `script.js` and hit Enter
+```bash
+node script.js
+```
 
 ---
 

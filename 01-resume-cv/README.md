@@ -5,6 +5,12 @@
 
 ---
 
+## Live Demo
+
+🔗 [View Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/01-resume-cv/)
+
+---
+
 ## What I Built
 
 A clean resume/CV webpage built with HTML and CSS, listing my education, internship experience, projects, technical skills, achievements, certifications, and interests.

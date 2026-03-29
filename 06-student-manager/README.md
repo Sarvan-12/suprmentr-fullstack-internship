@@ -5,6 +5,12 @@
 
 ---
 
+## Output
+
+![Console Output](./Screenshot.png)
+
+---
+
 ## What I Built
 
 A JavaScript program that stores student data using arrays and objects, then loops through each student to calculate and display their average marks in the console.
@@ -23,7 +29,7 @@ A JavaScript program that stores student data using arrays and objects, then loo
 ## Technologies Used
 
 - JavaScript (Vanilla)
-- Browser Console
+- Node.js (to run in terminal)
 
 ---
 
@@ -32,16 +38,17 @@ A JavaScript program that stores student data using arrays and objects, then loo
 ```
 06-student-manager/
 │
-└── script.js       # Student data, average calculation, console output
+├── script.js       # Student data, average calculation, console output
+└── Screenshot.png  # Terminal output screenshot
 ```
 
 ---
 
 ## How to Run
 
-1. Open browser DevTools (F12)
-2. Go to the **Console** tab
-3. Copy-paste the contents of `script.js` and hit Enter
+```bash
+node script.js
+```
 
 ---
 
