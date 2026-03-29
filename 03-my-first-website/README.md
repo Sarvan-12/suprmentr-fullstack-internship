@@ -1,7 +1,10 @@
-# 03 — My First Website
+# 03 — My First Website + Make It Beautiful
 
-**Assignment Date:** 12/02/2026
-**Assignment:** Create a personal profile webpage using headings, images, links, and lists.
+**Assignment 1 Date:** 12/02/2026
+**Assignment 1:** Create a personal profile webpage using headings, images, links, and lists.
+
+**Assignment 2 Date:** 17/02/2026
+**Assignment 2:** Style the previously created webpage using colors, fonts, borders, and spacing.
 
 ---
 
@@ -13,7 +16,7 @@
 
 ## What I Built
 
-A personal profile/portfolio webpage with a sidebar layout, showing my bio, technical skills, projects, and social links — styled with CSS including glassmorphism effects and animated background blobs.
+A personal profile/portfolio webpage with a sidebar layout, showing my bio, technical skills, projects, and social links. The first assignment focused on building the HTML structure, and the second assignment was about styling it with CSS — colors, fonts, borders, spacing, and layout effects like glassmorphism.
 
 ---
 
@@ -26,6 +29,7 @@ A personal profile/portfolio webpage with a sidebar layout, showing my bio, tech
 - Projects section with descriptions
 - Animated background blob effects
 - Google Fonts (Inter) integration
+- Glassmorphism card styling with `backdrop-filter`
 
 ---
 
@@ -50,9 +54,14 @@ A personal profile/portfolio webpage with a sidebar layout, showing my bio, tech
 
 ## What I Learned
 
-- How to use images, links, lists, and headings in HTML
-- How to build a two-column layout with CSS
-- How to apply Google Fonts and external stylesheets
+**From Assignment 1 (My First Website):**
+- How to use headings, images, links, and lists in HTML
+- How to structure a webpage with semantic HTML
+
+**From Assignment 2 (Make It Beautiful):**
+- How to apply colors, fonts, borders, and spacing with CSS
+- How to build a two-column layout
+- How to use Google Fonts
 - Basics of glassmorphism styling with `backdrop-filter`
 
 ---
