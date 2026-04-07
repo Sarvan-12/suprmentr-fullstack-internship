@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suprmentr-fullstack-internship/10-mood-tracker/static/css/main.f38721ce.css",
+    "main.js": "/suprmentr-fullstack-internship/10-mood-tracker/static/js/main.7ba55f50.js",
+    "index.html": "/suprmentr-fullstack-internship/10-mood-tracker/index.html",
+    "main.f38721ce.css.map": "/suprmentr-fullstack-internship/10-mood-tracker/static/css/main.f38721ce.css.map",
+    "main.7ba55f50.js.map": "/suprmentr-fullstack-internship/10-mood-tracker/static/js/main.7ba55f50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38721ce.css",
+    "static/js/main.7ba55f50.js"
+  ]
+}
