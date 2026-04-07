@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suprmentr-fullstack-internship/11-dynamic-list-app/static/css/main.7a206469.css",
+    "main.js": "/suprmentr-fullstack-internship/11-dynamic-list-app/static/js/main.e646b6d2.js",
+    "index.html": "/suprmentr-fullstack-internship/11-dynamic-list-app/index.html",
+    "main.7a206469.css.map": "/suprmentr-fullstack-internship/11-dynamic-list-app/static/css/main.7a206469.css.map",
+    "main.e646b6d2.js.map": "/suprmentr-fullstack-internship/11-dynamic-list-app/static/js/main.e646b6d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a206469.css",
+    "static/js/main.e646b6d2.js"
+  ]
+}
