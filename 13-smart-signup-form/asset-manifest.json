@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suprmentr-fullstack-internship/13-smart-signup-form/static/css/main.890d25a8.css",
+    "main.js": "/suprmentr-fullstack-internship/13-smart-signup-form/static/js/main.45ae0ebc.js",
+    "index.html": "/suprmentr-fullstack-internship/13-smart-signup-form/index.html",
+    "main.890d25a8.css.map": "/suprmentr-fullstack-internship/13-smart-signup-form/static/css/main.890d25a8.css.map",
+    "main.45ae0ebc.js.map": "/suprmentr-fullstack-internship/13-smart-signup-form/static/js/main.45ae0ebc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.890d25a8.css",
+    "static/js/main.45ae0ebc.js"
+  ]
+}
