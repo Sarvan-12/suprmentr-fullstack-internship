@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suprmentr-fullstack-internship/12-multi-page-app/static/css/main.c031e1b5.css",
+    "main.js": "/suprmentr-fullstack-internship/12-multi-page-app/static/js/main.5dacfc16.js",
+    "index.html": "/suprmentr-fullstack-internship/12-multi-page-app/index.html",
+    "main.c031e1b5.css.map": "/suprmentr-fullstack-internship/12-multi-page-app/static/css/main.c031e1b5.css.map",
+    "main.5dacfc16.js.map": "/suprmentr-fullstack-internship/12-multi-page-app/static/js/main.5dacfc16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c031e1b5.css",
+    "static/js/main.5dacfc16.js"
+  ]
+}
