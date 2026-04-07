@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Tasks from "./pages/Tasks";
 import About from "./pages/About";
@@ -21,7 +21,7 @@ function Navbar() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <div className="content">
         <Routes>
@@ -30,7 +30,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
