@@ -1,0 +1,451 @@
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0c29 0%, #1a1440 30%, #302b63 60%, #24243e 100%);
+    color: #e0e0e0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* ===== ANIMATED BACKGROUND BLOBS ===== */
+.blob {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.4;
+    z-index: 0;
+    pointer-events: none;
+    will-change: transform;
+}
+
+.blob-1 {
+    width: 480px;
+    height: 480px;
+    background: radial-gradient(circle, #7c3aed, #6d28d9, transparent 70%);
+    top: -10%;
+    left: -8%;
+    animation: float1 18s ease-in-out infinite;
+}
+
+.blob-2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #2563eb, #1d4ed8, transparent 70%);
+    bottom: -12%;
+    right: -6%;
+    animation: float2 22s ease-in-out infinite;
+}
+
+.blob-3 {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #6366f1, #4f46e5, transparent 70%);
+    top: 50%;
+    left: 55%;
+    animation: float3 20s ease-in-out infinite;
+}
+
+@keyframes float1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(60px, 40px) scale(1.08);
+    }
+
+    66% {
+        transform: translate(-30px, 70px) scale(0.95);
+    }
+}
+
+@keyframes float2 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(-50px, -30px) scale(1.1);
+    }
+
+    66% {
+        transform: translate(40px, -60px) scale(0.92);
+    }
+}
+
+@keyframes float3 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(40px, -50px) scale(1.05);
+    }
+
+    66% {
+        transform: translate(-60px, 30px) scale(0.97);
+    }
+}
+
+/* ===== GLASSMORPHISM CARD ===== */
+.glass-card {
+    background: rgba(255, 255, 255, 0.055);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.28);
+}
+
+/* ===== MAIN LAYOUT ===== */
+.profile-container {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 18px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 24px 24px 10px;
+    min-height: calc(100vh - 40px);
+    align-content: start;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    padding: 24px 20px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 32px;
+    align-self: start;
+}
+
+.avatar-wrapper {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 24px rgba(124, 58, 237, 0.2);
+}
+
+.name {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #a78bfa;
+    margin-top: 4px;
+}
+
+.sidebar-divider {
+    width: 55%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+    margin: 12px 0;
+}
+
+/* Contact info */
+.contact-info {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.contact-icon {
+    font-size: 1rem;
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Social buttons */
+.social-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background 0.25s ease, transform 0.2s ease, color 0.25s ease;
+}
+
+.social-btn:hover {
+    background: rgba(124, 58, 237, 0.2);
+    color: #c4b5fd;
+    transform: translateY(-1px);
+}
+
+/* Beyond Code (sidebar) */
+.beyond-code {
+    width: 100%;
+    text-align: center;
+}
+
+.beyond-code h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.beyond-code .chess-note {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.beyond-code .chess-note strong {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* ===== RIGHT CONTENT AREA ===== */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 14px;
+    align-content: start;
+}
+
+.content .glass-card {
+    padding: 18px 20px;
+}
+
+.content h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-icon {
+    font-size: 1.1rem;
+}
+
+.content p {
+    font-size: 0.87rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* About — full width, slightly different feel */
+.card-about {
+    grid-column: 1 / -1;
+    border-left: 3px solid rgba(167, 139, 250, 0.35);
+}
+
+/* ===== SKILLS ===== */
+.skill-category {
+    margin-bottom: 10px;
+}
+
+.skill-category:last-child {
+    margin-bottom: 0;
+}
+
+.skill-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 8px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: rgba(124, 58, 237, 0.12);
+    border: 1px solid rgba(124, 58, 237, 0.25);
+    color: #c4b5fd;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.skill-tag:hover {
+    background: rgba(124, 58, 237, 0.25);
+    transform: scale(1.04);
+}
+
+/* ===== PROJECTS ===== */
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-item {
+    padding: 13px 15px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    transition: background 0.25s ease;
+}
+
+.project-item:hover {
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.project-item h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #a78bfa;
+    margin-bottom: 4px;
+}
+
+.project-item p {
+    font-size: 0.82rem;
+    line-height: 1.55;
+}
+
+/* ===== CHESS / BEYOND CODE — toned down ===== */
+.card-chess {
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.chess-note {
+    font-size: 0.87rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.chess-note strong {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 12px 0 16px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.78rem;
+    font-style: italic;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+    .profile-container {
+        grid-template-columns: 260px 1fr;
+        padding: 22px 16px 10px;
+        gap: 18px;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        grid-template-columns: 1fr;
+        padding: 18px 12px 10px;
+    }
+
+    .sidebar {
+        position: static;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .card-about {
+        border-left: none;
+    }
+
+    .blob-1 {
+        width: 280px;
+        height: 280px;
+    }
+
+    .blob-2 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .blob-3 {
+        width: 180px;
+        height: 180px;
+    }
+}
