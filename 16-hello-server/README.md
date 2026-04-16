@@ -1,22 +1,51 @@
-# 16 - Hello Server
+# 16 — Hello Server
 
-This is my 16th assignment from the SuprMentr Full Stack Internship.
+**Assignment Date:** 23/03/2026
+**Assignment:** Create a Node.js server with basic routing.
 
-## 📌 Description
+---
 
-Built a basic Node.js server using the built-in `http` module.
-The server handles different routes and returns simple text responses.
+## 🚀 What I Built
 
-## 🚀 Features
+A simple Node.js server using the built-in `http` module that handles different routes and returns text responses.
+
+---
+
+## 🔥 Features
 
 * Home route (`/`) → Welcome message
 * About route (`/about`) → About message
 * Contact route (`/contact`) → Contact message
-* Invalid routes → 404 Not Found
+* Unknown routes → 404 Not Found
+* Basic routing using `req.url`
 
-## 🛠️ Tech Used
+---
+
+## 🛠️ Technologies Used
 
 * Node.js
+* HTTP module
+
+---
+
+## 📁 Project Structure
+
+```id="u3g7fs"
+16-hello-server/
+└── server.js
+```
+
+---
+
+## 📚 What I Learned
+
+* How to create a server using `http.createServer()`
+* How request and response work in backend
+* How to handle routes using `req.url`
+* How to send responses using `res.writeHead()` and `res.end()`
+* Basics of backend development
+
+---
 
 ## ▶️ How to Run
 
@@ -32,9 +61,8 @@ The server handles different routes and returns simple text responses.
    http://localhost:3000
    ```
 
-## 📁 Folder Structure
+---
 
-```
-16-hello-server/
-└── server.js
-```
+## 👤 Author
+
+Sarvan D Suvarna — Part of MERN Stack Internship @ SuprMentr Technologies
