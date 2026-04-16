@@ -34,6 +34,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 12 | [Multi-Page App](./12-multi-page-app/)             | React Router, SPA navigation              | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/12-multi-page-app/)       |
 | 13 | [Smart Signup Form](./13-smart-signup-form/)       | React, form validation, password strength | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/13-smart-signup-form/)    |
 | 15 | [Product Listing UI](./15-product-listing-ui/) | React, props, filtering, component reuse | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/15-product-listing-ui/) |
+| 16 | [Hello Server](./16-hello-server/) | Node.js, HTTP module, basic routing | Run locally |
 ---
 
 ## Tech Stack
@@ -42,7 +43,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 * CSS3 (Flexbox, Media Queries)
 * JavaScript (Vanilla)
 * React (useState, useEffect, React Router)
-* Node.js *(coming soon)*
+* Node.js (Basic server, routing)
 * Express *(coming soon)*
 * MongoDB *(coming soon)*
 
