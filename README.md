@@ -36,6 +36,8 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 15 | [Product Listing UI](./15-product-listing-ui/) | React, props, filtering, component reuse | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/15-product-listing-ui/) |
 | 16 | [Hello Server](./16-hello-server/) | Node.js, HTTP module, basic routing | Run locally |
 | 17 | [Route Master](./17-route-master/) | Express.js, routing, CRUD APIs, Express Router | Run locally |
+| 18 | [Task API](./18-task-api/) | Express.js, REST API, CRUD operations, JSON handling | Run locally |
+
 ---
 
 ## Tech Stack
