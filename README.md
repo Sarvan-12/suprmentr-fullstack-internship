@@ -39,6 +39,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 18 | [Task API](./18-task-api/) | Express.js, REST API, CRUD operations, JSON handling | Run locally |
 | 19 | [MVC Refactor](./19-mvc-refactor/) | MVC architecture, Express.js refactoring | Run locally |
 | 20 | [Data Modeler](./20-data-modeler/) | MongoDB, Schema Design, Data Relationships | Screenshots |
+| 21 | [CRUD Lab](./21-crud-lab/) | Mongoose, CRUD Operations, API Validation | Run locally |
 
 ---
 
