@@ -37,6 +37,8 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 16 | [Hello Server](./16-hello-server/) | Node.js, HTTP module, basic routing | Run locally |
 | 17 | [Route Master](./17-route-master/) | Express.js, routing, CRUD APIs, Express Router | Run locally |
 | 18 | [Task API](./18-task-api/) | Express.js, REST API, CRUD operations, JSON handling | Run locally |
+| 19 | [MVC Refactor](./19-mvc-refactor/) | MVC architecture, Express.js refactoring | Run locally |
+| 20 | [Data Modeler](./20-data-modeler/) | MongoDB, Schema Design, Data Relationships | Screenshots |
 
 ---
 
@@ -48,7 +50,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 * React (useState, useEffect, React Router)
 * Node.js (Basic server, routing)
 * Express (Routing, REST APIs)
-* MongoDB *(coming soon)*
+* MongoDB (NoSQL, Schema Design)
 
 ---
 
