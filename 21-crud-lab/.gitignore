@@ -1,4 +1,14 @@
-
+# Dependencies
 node_modules/
-.env
 package-lock.json
+
+# Environment variables
+.env
+
+# Local setup files (not needed in final repo)
+SETUP_GUIDE.txt
+THUNDER_CLIENT_REQUESTS.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
