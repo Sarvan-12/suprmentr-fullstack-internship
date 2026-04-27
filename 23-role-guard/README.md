@@ -31,35 +31,21 @@ Enhanced the authentication system by adding user roles. This allows the applica
 
 ---
 
-## How It Works (The Role Guard Logic)
-
-1.  **Signup/Login**: The server identifies the user's role and includes it in the JWT.
-2.  **Auth Middleware**: Decodes the token and attaches the user's ID and Role to the request object (`req.user`).
-3.  **Role Guard Middleware**: A higher-order function that takes an array of allowed roles (e.g., `roleCheck(['admin'])`). It checks if the `req.user.role` matches.
-4.  **Enforcement**: If the role matches, the request proceeds. If not, a `403 Forbidden` response is returned.
-
----
-
 ## Implementation Verification
 
-### 1. Project Structure
-```
-23-role-guard/
-├── middleware/
-│   ├── auth.js         # JWT verification
-│   └── roleCheck.js    # Permission validation
-├── models/
-│   └── User.js         # Added 'role' field
-├── routes/
-│   └── auth.js         # Added /admin route
-├── server.js
-└── README.md
-```
+### 1. User/Admin Registration
+The system correctly assigns roles during signup.
+![Signup Roles](./screenshots/01-signup-user.png)
+![Signup Admin](./screenshots/02-signup-admin.png)
 
-### 2. Testing Scenarios
-* ✅ **Normal User**: Can access `/api/auth/user` but gets **403 Forbidden** on `/api/auth/admin`.
-* ✅ **Admin User**: Can access both the standard user route and the admin dashboard.
-* ✅ **Guest**: Gets **401 Unauthorized** on both routes.
+### 2. Standard User Access
+A user can access their profile but is blocked from administrative areas.
+![User Profile](./screenshots/03-user-profile.png)
+![Forbidden Access](./screenshots/04-admin-forbidden.png)
+
+### 3. Admin Authorization
+Admins have full access to the management dashboard.
+![Admin Success](./screenshots/05-admin-success.png)
 
 ---
 
