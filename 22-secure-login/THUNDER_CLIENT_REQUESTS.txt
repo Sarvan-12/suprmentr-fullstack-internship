@@ -1,0 +1,45 @@
+THUNDER CLIENT REQUESTS FOR SECURE LOGIN
+======================================
+
+BASE URL: http://localhost:5000/api/auth
+
+---
+
+1. SIGNUP (POST)
+Method: POST
+URL: http://localhost:5000/api/auth/signup
+Body (JSON):
+{
+  "username": "sarvan_test",
+  "email": "sarvan@example.com",
+  "password": "password123"
+}
+
+---
+
+2. LOGIN (POST)
+Method: POST
+URL: http://localhost:5000/api/auth/login
+Body (JSON):
+{
+  "email": "sarvan@example.com",
+  "password": "password123"
+}
+
+*Copy the "token" from the response for the next request.*
+
+---
+
+3. GET PROTECTED USER DATA (GET)
+Method: GET
+URL: http://localhost:5000/api/auth/user
+Headers:
+x-auth-token: {{PASTE_TOKEN_HERE}}
+
+---
+
+TESTING FLOW:
+1. Signup with a new user (check if token is returned).
+2. Login with same credentials (check if token is returned).
+3. Try accessing /user WITHOUT the token (should get 401).
+4. Try accessing /user WITH the token (should get user details).

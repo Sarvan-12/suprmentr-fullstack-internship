@@ -40,6 +40,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 19 | [MVC Refactor](./19-mvc-refactor/) | MVC architecture, Express.js refactoring | Run locally |
 | 20 | [Data Modeler](./20-data-modeler/) | MongoDB, Schema Design, Data Relationships | Screenshots |
 | 21 | [CRUD Lab](./21-crud-lab/) | Mongoose, CRUD Operations, API Validation | Run locally |
+| 22 | [Secure Login](./22-secure-login/) | Authentication, JWT, bcrypt, Password Hashing | Run locally |
 
 ---
 
