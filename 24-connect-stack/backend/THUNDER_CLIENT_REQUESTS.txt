@@ -1,0 +1,61 @@
+THUNDER CLIENT REQUESTS FOR ROLE GUARD
+======================================
+
+BASE URL: http://localhost:5002/api/auth
+
+---
+
+1. SIGNUP (User Role)
+Method: POST
+URL: http://localhost:5002/api/auth/signup
+Body (JSON):
+{
+  "username": "normal_user",
+  "email": "user@example.com",
+  "password": "password123",
+  "role": "user"
+}
+
+---
+
+2. SIGNUP (Admin Role)
+Method: POST
+URL: http://localhost:5002/api/auth/signup
+Body (JSON):
+{
+  "username": "admin_boss",
+  "email": "admin@example.com",
+  "password": "adminpassword",
+  "role": "admin"
+}
+
+---
+
+3. LOGIN
+Method: POST
+URL: http://localhost:5002/api/auth/login
+Body (JSON):
+{
+  "email": "user@example.com",
+  "password": "password123"
+}
+
+*Copy the "token" from the response.*
+
+---
+
+4. ACCESS USER ROUTE (ANY USER)
+Method: GET
+URL: http://localhost:5002/api/auth/user
+Headers:
+x-auth-token: {{PASTE_TOKEN_HERE}}
+
+---
+
+5. ACCESS ADMIN ROUTE (RESTRICTED)
+Method: GET
+URL: http://localhost:5002/api/auth/admin
+Headers:
+x-auth-token: {{PASTE_TOKEN_HERE}}
+
+*Test this with BOTH the user token (should get 403 Forbidden) and the admin token (should get success).*

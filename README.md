@@ -42,6 +42,7 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 21 | [CRUD Lab](./21-crud-lab/) | Mongoose, CRUD Operations, API Validation | Run locally |
 | 22 | [Secure Login](./22-secure-login/) | Authentication, JWT, bcrypt, Password Hashing | Run locally |
 | 23 | [Role Guard](./23-role-guard/) | Authorization, RBAC, Admin Roles, Middleware | Run locally |
+| 24 | [Connect the Stack](./24-connect-stack/) | Full-Stack Integration, React + Express, CORS | Run locally |
 
 ---
 
