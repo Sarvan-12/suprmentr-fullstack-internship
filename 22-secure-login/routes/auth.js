@@ -6,7 +6,10 @@ const auth = require('../middleware/auth');
 
 // @route   POST /api/auth/signup
 // @desc    Register user
-router.post('/signup', async (req, res) => {
+router.post('/signup', async (req, res, next) => {
+  if (!req.body || Object.keys(req.body).length === 0) {
+    return res.status(400).json({ message: 'Request body is missing' });
+  }
   const { username, email, password } = req.body;
 
   try {
@@ -27,19 +30,21 @@ router.post('/signup', async (req, res) => {
       process.env.JWT_SECRET,
       { expiresIn: '1h' },
       (err, token) => {
-        if (err) throw err;
+        if (err) return next(err);
         res.status(201).json({ token, message: 'User registered successfully' });
       }
     );
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    next(err);
   }
 });
 
 // @route   POST /api/auth/login
 // @desc    Authenticate user & get token
-router.post('/login', async (req, res) => {
+router.post('/login', async (req, res, next) => {
+  if (!req.body || Object.keys(req.body).length === 0) {
+    return res.status(400).json({ message: 'Request body is missing' });
+  }
   const { email, password } = req.body;
 
   try {
@@ -62,25 +67,23 @@ router.post('/login', async (req, res) => {
       process.env.JWT_SECRET,
       { expiresIn: '1h' },
       (err, token) => {
-        if (err) throw err;
+        if (err) return next(err);
         res.json({ token, message: 'Logged in successfully' });
       }
     );
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    next(err);
   }
 });
 
 // @route   GET /api/auth/user
 // @desc    Get logged in user (Protected Route)
-router.get('/user', auth, async (req, res) => {
+router.get('/user', auth, async (req, res, next) => {
   try {
     const user = await User.findById(req.user.id).select('-password');
     res.json(user);
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    next(err);
   }
 });
 

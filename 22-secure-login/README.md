@@ -32,36 +32,19 @@ Implemented a production-ready authentication system using **Node.js**, **Expres
 
 ---
 
-## Authentication Flow
-
-1.  **Signup**: User provides email/password. The password is hashed using `bcrypt` and saved to MongoDB. A JWT is returned.
-2.  **Login**: User provides credentials. The system compares the plain-text password with the hashed version in the DB. If they match, a JWT is issued.
-3.  **Authorization**: For protected routes (like `/user`), the client must send the JWT in the `x-auth-token` header. The server verifies the token before serving data.
-
----
-
 ## Implementation Verification
 
-### 1. Project Structure
-```
-22-secure-login/
-├── middleware/
-│   └── auth.js         # JWT verification middleware
-├── models/
-│   └── User.js         # User schema with pre-save hashing
-├── routes/
-│   └── auth.js         # Signup, Login, and User routes
-├── .env                # Secret keys and config
-├── server.js           # Entry point
-└── README.md
-```
+### 1. User Registration (Signup)
+The password is automatically hashed before being saved to MongoDB.
+![Signup Verification](./screenshots/01-signup.png)
 
-### 2. Testing with Thunder Client
-Verified the following scenarios:
-* ✅ User registration (Password hashed in DB)
-* ✅ User login (Token generation)
-* ✅ Protected route access with valid token
-* ✅ Access denied for missing or invalid tokens
+### 2. User Authentication (Login)
+Verification of credentials and generation of a secure JWT token.
+![Login Verification](./screenshots/02-login.png)
+
+### 3. Protected Route Authorization
+Accessing restricted data using the JWT token in the request header.
+![Protected Route](./screenshots/03-protected-route.png)
 
 ---
 

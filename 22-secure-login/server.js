@@ -9,6 +9,7 @@ const app = express();
 
 // Body parser
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // Connect to Database
 mongoose.connect(process.env.MONGODB_URI)
@@ -23,6 +24,12 @@ app.get('/', (req, res) => {
   res.send('Secure Login API is running...');
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
+
+// Error Handler
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ message: 'Internal Server Error' });
+});
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
