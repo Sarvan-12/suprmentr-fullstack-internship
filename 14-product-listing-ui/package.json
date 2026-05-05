@@ -1,6 +1,6 @@
 {
-  "homepage": "/suprmentr-fullstack-internship/15-product-listing-ui",
-  "name": "15-product-listing-ui",
+  "homepage": "/suprmentr-fullstack-internship/14-product-listing-ui",
+  "name": "14-product-listing-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --dest 15-product-listing-ui"
+    "deploy": "gh-pages -d build --dest 14-product-listing-ui"
   },
   "eslintConfig": {
     "extends": [
