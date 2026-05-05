@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suprmentr-fullstack-internship/14-product-listing-ui/static/css/main.c28979f6.css",
+    "main.js": "/suprmentr-fullstack-internship/14-product-listing-ui/static/js/main.82b4cba6.js",
+    "index.html": "/suprmentr-fullstack-internship/14-product-listing-ui/index.html",
+    "main.c28979f6.css.map": "/suprmentr-fullstack-internship/14-product-listing-ui/static/css/main.c28979f6.css.map",
+    "main.82b4cba6.js.map": "/suprmentr-fullstack-internship/14-product-listing-ui/static/js/main.82b4cba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c28979f6.css",
+    "static/js/main.82b4cba6.js"
+  ]
+}
