@@ -1,5 +1,5 @@
 
-# 21 — CRUD Lab
+# 20 — CRUD Lab
 
 **Assignment Date:** 03/04/2026
 **Assignment:** Implement full CRUD operations for a Product management system using Express and Mongoose.
@@ -35,7 +35,7 @@ Developed a complete RESTful API for managing a product catalog. This lab involv
 ## Project Structure
 
 ```
-21-crud-lab/
+20-crud-lab/
 ├── db.js            # MongoDB connection logic
 ├── Product.js       # Mongoose Schema & Model
 ├── server.js        # Express app and CRUD routes

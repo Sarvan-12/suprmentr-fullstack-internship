@@ -1,5 +1,5 @@
 
-# 18 — Task API
+# 17 — Task API
 
 **Assignment Date:** 27/03/2026
 **Assignment:** Create CRUD APIs for a task manager and test using API client.
@@ -33,7 +33,7 @@ A basic Express.js backend API for managing tasks. Implemented full CRUD operati
 ## Project Structure
 
 ```
-18-task-api/
+17-task-api/
 │
 ├── index.js        # Server setup and all task routes
 ├── package.json

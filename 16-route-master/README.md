@@ -1,4 +1,4 @@
-# 17 — Route Master
+# 16 — Route Master
 
 **Assignment Date:** 26/03/2026
 **Assignment:** Build Express routes for a bookstore (books, authors).
@@ -32,7 +32,7 @@ A basic Express.js backend API for a bookstore that handles books and authors us
 ## Project Structure
 
 ```
-17-route-master/
+16-route-master/
 │
 ├── routes/
 │   ├── books.js      # All book-related routes

@@ -1,5 +1,5 @@
 
-# 20 — Data Modeler
+# 19 — Data Modeler
 
 **Assignment Date:** 30/03/2026
 **Assignment:** Design a MongoDB schema for a blogging platform.

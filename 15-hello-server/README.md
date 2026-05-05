@@ -1,4 +1,4 @@
-# 16 — Hello Server
+# 15 — Hello Server
 
 Assignment Date: 23/03/2026
 Assignment: Create a Node.js server with basic routing.
@@ -30,7 +30,7 @@ HTTP module
 
 ## Project Structure
 
-16-hello-server/
+15-hello-server/
 │
 └── server.js
 

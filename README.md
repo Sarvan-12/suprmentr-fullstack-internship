@@ -33,16 +33,16 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 | 11 | [Dynamic List App](./11-dynamic-list-app/)         | React, hooks, add/delete with state       | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/11-dynamic-list-app/)     |
 | 12 | [Multi-Page App](./12-multi-page-app/)             | React Router, SPA navigation              | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/12-multi-page-app/)       |
 | 13 | [Smart Signup Form](./13-smart-signup-form/)       | React, form validation, password strength | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/13-smart-signup-form/)    |
-| 15 | [Product Listing UI](./15-product-listing-ui/) | React, props, filtering, component reuse | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/15-product-listing-ui/) |
-| 16 | [Hello Server](./16-hello-server/) | Node.js, HTTP module, basic routing | Run locally |
-| 17 | [Route Master](./17-route-master/) | Express.js, routing, CRUD APIs, Express Router | Run locally |
-| 18 | [Task API](./18-task-api/) | Express.js, REST API, CRUD operations, JSON handling | Run locally |
-| 19 | [MVC Refactor](./19-mvc-refactor/) | MVC architecture, Express.js refactoring | Run locally |
-| 20 | [Data Modeler](./20-data-modeler/) | MongoDB, Schema Design, Data Relationships | Screenshots |
-| 21 | [CRUD Lab](./21-crud-lab/) | Mongoose, CRUD Operations, API Validation | Run locally |
-| 22 | [Secure Login](./22-secure-login/) | Authentication, JWT, bcrypt, Password Hashing | Run locally |
-| 23 | [Role Guard](./23-role-guard/) | Authorization, RBAC, Admin Roles, Middleware | Run locally |
-| 24 | [Connect the Stack](./24-connect-stack/) | Full-Stack Integration, React + Express, CORS | Run locally |
+| 14 | [Product Listing UI](./14-product-listing-ui/) | React, props, filtering, component reuse | [Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/14-product-listing-ui/) |
+| 15 | [Hello Server](./15-hello-server/) | Node.js, HTTP module, basic routing | Run locally |
+| 16 | [Route Master](./16-route-master/) | Express.js, routing, CRUD APIs, Express Router | Run locally |
+| 17 | [Task API](./17-task-api/) | Express.js, REST API, CRUD operations, JSON handling | Run locally |
+| 18 | [MVC Refactor](./18-mvc-refactor/) | MVC architecture, Express.js refactoring | Run locally |
+| 19 | [Data Modeler](./19-data-modeler/) | MongoDB, Schema Design, Data Relationships | Screenshots |
+| 20 | [CRUD Lab](./20-crud-lab/) | Mongoose, CRUD Operations, API Validation | Run locally |
+| 21 | [Secure Login](./21-secure-login/) | Authentication, JWT, bcrypt, Password Hashing | Run locally |
+| 22 | [Role Guard](./22-role-guard/) | Authorization, RBAC, Admin Roles, Middleware | Run locally |
+| 23 | [Connect the Stack](./23-connect-stack/) | Full-Stack Integration, React + Express, CORS | Run locally |
 
 ---
 

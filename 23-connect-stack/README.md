@@ -1,5 +1,5 @@
 
-# 24 — Connect the Stack (The Grand Finale)
+# 23 — Connect the Stack (The Grand Finale)
 
 **Assignment Date:** 11/04/2026
 **Assignment:** The final full-stack integration. Connect a modern React frontend to the secure, role-based backend APIs.

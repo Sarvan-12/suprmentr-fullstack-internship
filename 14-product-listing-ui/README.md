@@ -1,5 +1,5 @@
 
-# 15 — Product Listing UI
+# 14 — Product Listing UI
 
 **Assignment Date:** 21/03/2026
 **Assignment:** Build a mini e-commerce frontend with product cards and filters.
@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-🔗 [View Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/15-product-listing-ui/)
+🔗 [View Live](https://sarvan-12.github.io/suprmentr-fullstack-internship/14-product-listing-ui/)
 
 ---
 
@@ -40,7 +40,7 @@ A React-based product listing UI that displays items in a grid layout with categ
 ## Project Structure
 
 ```
-15-product-listing-ui/
+14-product-listing-ui/
 │
 ├── public/
 ├── src/
