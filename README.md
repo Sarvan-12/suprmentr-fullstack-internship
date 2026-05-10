@@ -46,6 +46,19 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 
 ---
 
+## 🏆 Capstone Project
+
+### [AI Code Review Tool](https://github.com/Sarvan-12/ai-code-review-tool)
+
+A full-stack MERN application that leverages AI to automate the code review process. It analyzes code snippets for bugs, potential improvements, and provides refactored suggestions in real-time.
+
+*   **AI Integration:** Powered by **Groq API** for high-speed code analysis.
+*   **Features:** Bug detection, performance optimization tips, and clean code refactoring.
+*   **Stack:** React, Node.js, Express, MongoDB.
+*   **History:** All reviews are stored in MongoDB for future reference and tracking.
+
+---
+
 ## Tech Stack
 
 * HTML5
