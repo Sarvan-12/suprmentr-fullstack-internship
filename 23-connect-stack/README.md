@@ -31,23 +31,34 @@ This project marks the completion of my backend training. I've built a **Full-St
 
 ---
 
-## How to Run Locally
+## 🛠️ How to Run Locally
 
-### 1. Backend
-```bash
-cd backend
-npm install
-npm start
-```
-*Server runs on: http://localhost:5003*
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 23-connect-stack
+   ```
+3. **Setup & Run Backend**:
+   ```bash
+   cd backend
+   npm install
+   # Create a .env file with PORT, MONGO_URI, and JWT_SECRET
+   npm start
+   ```
+4. **Setup & Run Frontend**:
+   - Open a **new terminal** and stay in the `23-connect-stack` folder.
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+5. **Open the project**:
+   - The app will typically be available at `http://localhost:5173`.
 
-### 2. Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-*App runs on: http://localhost:5173 (or similar)*
+---
 
 ---
 
