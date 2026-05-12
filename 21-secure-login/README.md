@@ -32,6 +32,38 @@ Implemented a production-ready authentication system using **Node.js**, **Expres
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 21-secure-login
+   ```
+3. **Configure environment variables**:
+   - Create a `.env` file in the root of this folder.
+   - Add the following variables:
+     ```env
+     PORT=5000
+     MONGO_URI=mongodb://localhost:27017/secure_login
+     JWT_SECRET=your_super_secret_key_here
+     ```
+4. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+5. **Start the server**:
+   ```bash
+   node server.js
+   ```
+6. **Test the API**:
+   - The server runs on `http://localhost:5000`.
+   - Use the provided `THUNDER_CLIENT_REQUESTS.txt` to test the signup and login flow.
+
+---
+
 ## Implementation Verification
 
 ### 1. User Registration (Signup)
