@@ -32,6 +32,32 @@ Developed a complete RESTful API for managing a product catalog. This lab involv
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 20-crud-lab
+   ```
+3. **Start MongoDB**:
+   - Ensure you have MongoDB installed and running on your machine (port `27017`).
+4. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+5. **Start the server**:
+   ```bash
+   npm start
+   ```
+6. **Test the API**:
+   - The server runs on `http://localhost:5000`.
+   - Use the provided `THUNDER_CLIENT_REQUESTS.txt` to test the endpoints.
+
+---
+
 ## Project Structure
 
 ```
