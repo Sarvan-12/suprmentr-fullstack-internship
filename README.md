@@ -46,6 +46,13 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 
 ---
 
+> ### 🚀 Found this roadmap helpful?
+> This repository represents **4 months** of dedicated MERN stack learning. If it helps you on your own coding journey, please consider giving it a **Star** to help other students find it! ⭐
+>
+> *A star takes 3 seconds and keeps the open-source spirit alive.*
+
+---
+
 ## 🏆 Capstone Project
 
 ### [AI Code Review Tool](https://github.com/Sarvan-12/ai-code-review-tool)
