@@ -46,13 +46,23 @@ Basics of backend development
 
 ---
 
-## How to Run
+## 🛠️ How to Run Locally
 
-1. Open terminal in this folder
-2. Run:
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 15-hello-server
+   ```
+3. **Start the server**:
+   ```bash
    node server.js
-3. Open browser:
-   http://localhost:3000
+   ```
+4. **Access the server**:
+   - Open your browser and go to `http://localhost:3000`.
+   - Try navigating to `/`, `/about`, or `/contact` to see different responses.
 
 ---
 
