@@ -30,6 +30,30 @@ A basic Express.js backend API for managing tasks. Implemented full CRUD operati
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 17-task-api
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the server**:
+   ```bash
+   node index.js
+   ```
+5. **Access the API**:
+   - The server runs on `http://localhost:3000`.
+   - You can test the CRUD routes like `/tasks` using a browser or an API tester like Postman.
+
+---
+
 ## Project Structure
 
 ```
