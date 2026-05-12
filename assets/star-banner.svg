@@ -3,12 +3,12 @@
   <rect width="800" height="120" rx="12" fill="#0D1117"/>
   <rect x="0.5" y="0.5" width="799" height="119" rx="11.5" stroke="#FFD700" stroke-opacity="0.4"/>
   
-  <!-- Screenshot Text Content -->
+  <!-- Text Content (Reverted Copy) -->
   <text fill="white" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600">
-    <tspan x="40" y="52">This roadmap saved you ~55 hours. Pay it forward.</tspan>
+    <tspan x="40" y="52">This repository represents 4 months of intense full-stack training.</tspan>
   </text>
   <text fill="#8B949E" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
-    <tspan x="40" y="80">A GitHub star takes 3 seconds and keeps this project alive for the next student.</tspan>
+    <tspan x="40" y="80">If it helps you, a star keeps the project alive for the next student.</tspan>
   </text>
   
   <!-- Premium Gold Button -->
