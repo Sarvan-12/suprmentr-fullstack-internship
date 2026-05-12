@@ -36,6 +36,29 @@ A multi-page React SPA using React Router with three pages — Home, Tasks, and 
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 12-multi-page-app
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
+5. **Open the project**:
+   - The app should automatically open in your browser at `http://localhost:3000`.
+
+---
+
 ## Project Structure
 
 ```
