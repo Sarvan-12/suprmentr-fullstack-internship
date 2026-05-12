@@ -37,6 +37,29 @@ A React-based product listing UI that displays items in a grid layout with categ
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 14-product-listing-ui
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
+5. **Open the project**:
+   - The app should automatically open in your browser at `http://localhost:3000`.
+
+---
+
 ## Project Structure
 
 ```
