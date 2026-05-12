@@ -40,6 +40,22 @@ A personal profile/portfolio webpage with a sidebar layout, showing my bio, tech
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 03-my-first-website
+   ```
+3. **Open the project**:
+   - Simply open `index.html` in any web browser.
+   - OR, if you use VS Code, right-click `index.html` and select **"Open with Live Server"**.
+
+---
+
 ## Project Structure
 
 ```
