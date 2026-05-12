@@ -38,6 +38,29 @@ A React weather app where users search for any city and get real-time weather da
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 09-weather-dashboard
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
+5. **Open the project**:
+   - The app should automatically open in your browser at `http://localhost:3000`.
+
+---
+
 ## Project Structure
 
 ```
