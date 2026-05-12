@@ -29,6 +29,30 @@ A basic Express.js backend API for a bookstore that handles books and authors us
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 16-route-master
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the server**:
+   ```bash
+   node index.js
+   ```
+5. **Access the API**:
+   - The server runs on `http://localhost:3000`.
+   - You can test the routes like `/books` or `/authors` using a browser or an API tester like Postman.
+
+---
+
 ## Project Structure
 
 ```
