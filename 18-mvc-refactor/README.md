@@ -30,6 +30,30 @@ Refactored the existing Task API into a structured Model-View-Controller (MVC) a
 
 ---
 
+## 🛠️ How to Run Locally
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/Sarvan-12/suprmentr-fullstack-internship.git
+   ```
+2. **Navigate to this folder**:
+   ```bash
+   cd 18-mvc-refactor
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the server**:
+   ```bash
+   npm start
+   ```
+5. **Access the API**:
+   - The server runs on `http://localhost:3000`.
+   - Test the endpoints like `/tasks` using Postman or any API client.
+
+---
+
 ## Project Structure
 
 ```
