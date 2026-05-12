@@ -1,0 +1,15 @@
+<svg width="800" height="120" viewBox="0 0 800 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="120" rx="12" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="799" height="119" rx="11.5" stroke="#FFD700" stroke-opacity="0.3"/>
+  
+  <!-- Text Section -->
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" letter-spacing="0em"><tspan x="40" y="52">This roadmap saved you 4 months of research. Pay it forward.</tspan></text>
+  <text fill="#8B949E" xml:space="preserve" style="white-space: pre" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" letter-spacing="0em"><tspan x="40" y="80">A GitHub star takes 3 seconds and helps other students find this path.</tspan></text>
+  
+  <!-- Gold Button Section -->
+  <rect x="580" y="35" width="180" height="50" rx="8" fill="#FFD700"/>
+  <path d="M610 52.25C610 51.9739 610.224 51.75 610.5 51.75H612.382L614.264 51.75C614.54 51.75 614.764 51.9739 614.764 52.25V54.132L614.764 56.014C614.764 56.2901 614.54 56.514 614.264 56.514H612.382L610.5 56.514C610.224 56.514 610 56.2901 610 56.014V54.132V52.25Z" fill="black"/>
+  <!-- Simple Star Icon Path -->
+  <path d="M608 60L610.5 65L616 65.5L612 69.5L613 75L608 72.5L603 75L604 69.5L600 65.5L605.5 65L608 60Z" fill="black"/>
+  <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="625" y="66">Star on GitHub</tspan></text>
+</svg>

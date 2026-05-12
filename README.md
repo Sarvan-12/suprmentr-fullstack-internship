@@ -46,10 +46,11 @@ I'm an 8th semester B.E. student in **AI & Data Science (VTU)**, and this intern
 
 ---
 
-> ### 🚀 Found this roadmap helpful?
-> This repository represents **4 months** of dedicated MERN stack learning. If it helps you on your own coding journey, please consider giving it a **Star** to help other students find it! ⭐
->
-> *A star takes 3 seconds and keeps the open-source spirit alive.*
+<div align="center">
+  <a href="https://github.com/Sarvan-12/suprmentr-fullstack-internship">
+    <img src="./assets/star-banner.svg" alt="Star this roadmap" width="800">
+  </a>
+</div>
 
 ---
 
